@@ -1,0 +1,27 @@
+// font-family: 'Cormorant Infant', serif;
+// font-family: 'Josefin Sans', sans-serif;
+
+$default: #555555;
+$title: #292E36;
+$accent: #E1B168;
+$hover: #d7922b;
+$white: #fff;
+
+
+@mixin title{
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 400;
+  color: $title;
+}
+
+@mixin button{
+  height: 70px;
+  padding: 20px 57px;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+@mixin space-between{ 
+  display: flex;
+  justify-content: space-between;
+}
